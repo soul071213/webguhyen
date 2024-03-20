@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+}
+table{
+    margin: auto;
+    border: 5px;
+}
+td{
+    width: 100px;
+}
+input{
+    height: 35px;
+    width: 250px;
+}
+
+.sub{
+    margin-left: 80px;
+    border-color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    
+}
+.res{
+    margin-left: 30px;
+    border-color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    justify-content: center;
+}
+.sub:hover{
+    background-color: black;
+}

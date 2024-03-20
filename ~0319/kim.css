@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.kim{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+}
