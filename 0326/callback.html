@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function showData(name, age) {
+        //     alert("이름: " + name + "\n나이: " + age);  // \n 을 쓰면 다른
+        // }
+
+        // function getData(callback) {
+        //     let userName = prompt("이름을 입력해주세요:");
+        //     let userAge = prompt("나이를 입력해주세요:");
+
+        //     // 입력 받은 데이터를 콜백 함수에 전달
+        //     callback(userName, userAge);
+        // }
+
+        // getData(showData);
+
+
+        function getData(callback){
+            name=prompt('이름?');
+            age=prompt('나이');
+            callback(name,age);
+        }
+        function showData(name,age){
+            alert(`${name} : ${age}`);
+        }
+        getData(showData);
+    </script>
+</body>
+</html>
